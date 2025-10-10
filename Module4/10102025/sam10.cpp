@@ -35,8 +35,8 @@ int main()
          << scientific << setprecision(2) << setw(20) << right << bonus <<endl;
     
     cout <<setw(80)<<setfill('-') << "" <<endl;    
-    
-    
+    cout << "Hex ID: " << hex << id << endl;
+    cout << "Octal ID: " << oct << id << endl;
     
     
     
